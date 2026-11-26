@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>My First Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111827;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 25px;
+            background: #1f2937;
+        }
+
+        h1 {
+            color: #38bdf8;
+        }
+
+        .container {
+            padding: 80px 20px;
+        }
+
+        button {
+            background: #38bdf8;
+            border: none;
+            padding: 14px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>MY WEBSITE</h2>
+    </header>
+
+    <div class="container">
+        <h1>Welcome to My Website!</h1>
+
+        <p>This is my first website created using GitHub.</p>
+
+        <button onclick="alert('Thanks for visiting!')">
+            Explore
+        </button>
+    </div>
+
+</body>
+</html>
